@@ -1,0 +1,191 @@
+\documentclass[spanish,]{article}
+\usepackage[utf8]{inputenc}  
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\setromanfont[
+BoldFont=Calluna-Bold.otf,
+ItalicFont=Calluna-It.otf,
+BoldItalicFont=Calluna-BoldIt.otf,
+]{Calluna-Regular.otf}
+\setsansfont[
+BoldFont=CallunaSans-Bold.otf,
+ItalicFont=CallunaSans-Italic.otf,
+BoldItalicFont=CallunaSans-BoldItalic.otf
+]{CallunaSans-Regular.otf}
+ \renewcommand{\familydefault}{\sfdefault}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Participación Programa Summer Institute in Law and Economics},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,main=spanish]{babel}
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[]{spanish}
+\fi
+\usepackage{longtable,booktabs}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\title{Participación Programa \\ \textit{Summer Institute in Law and Economics}}
+\providecommand{\subtitle}[1]{}
+\subtitle{Comentarios Anteproyecto Reforma Ley 19.628}
+\date{}
+\author{\textsc{Víctor Andrade R.}}
+
+\begin{document}
+\maketitle
+
+\subsection{1. Datos del Programa}\label{datos-del-programa}
+
+\begin{longtable}[c]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Nombre del Programa:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+2016 Summer Institute in Law and Economics
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Universidad:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+University of Chicago - Coase Sandor Institute in Law and Economics
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Dirección:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+Omri Ben-Shahar (Phd \& SJD Harvard University) Faculty Director
+Coase-Sandor Institute for Law and Economics
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Duración:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+11 al 22 de Julio de 2016
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Ciudad:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+Chicago, Illinois, USA
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Valor del Programa:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+USD 3000 (incluyendo depósito de seguridad de USD 500). Pasajes y gastos
+por cuenta del participante
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Sistema de clases:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+4 unidades. Cada una con 5 cátedras de 2 horas de duración +
+Presentación de Working Paper
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+Tópicos:
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+(a) \Behavioral Law and Economics (Tools and Methods), (b)
+Economic Analysis of Corporate Law, (c) Empirical Methods
+in Law and Economics Research, (d) Law and Economics of
+Contracts
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+\strut\end{minipage} &
+\begin{minipage}[t]{0.76\columnwidth}\raggedright\strut
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\subsection{2. Expectativas y Objetivos
+Esperados}\label{expectativas-y-objetivos-esperados}
+
+Una de mis principales aspiraciones con el programa es perfeccionar mi
+conocimiento sobre métodos de análisis normativo propios de la corriente
+teórica denominada ``Análisis Económico del Derecho'' (\emph{Law and
+Economics}), particularmente en vista de los recientes hallazgos en el
+campo de la economía conductual (\emph{behavioral economics}) que
+explican el comportamiento de los individuos ante decisiones económicas
+complejas habida cuenta de los sesgos cognitivos a los que se encuentran
+expuestos. Lo anterior, con el fin de aplicar el mismo a tópicos de
+regulación financiera, especialmente la modernización de los medios y
+sistemas de pagos.
+
+Tal propósito obedece al hecho que, en mi opinión, uno de los aspectos
+que definen la coyuntura actual en el campo de la regulación de medios
+de pagos es la tensión inherente entre innovación financiera,
+cuestiones de competencia, estabilidad y seguridad del sistema de pagos,
+y la protección del consumidor financiero. En dicho contexto, resulta
+necesario, junto con una profundización en el conocimiento sustantivo
+sobre el funcionamiento de sistemas de pago, contar con herramientas de
+evaluación y análisis legal que permitan enriquecer las labores de
+proposición normativa como asimismo la coordinación entre agencias
+gubernamentales.
+
+Por otra parte, como parte del desarrollo del programa, espero presentar
+en los coloquios de discusión un documento de trabajo (\emph{working
+paper}) relativo a los alcances de la normativa chilena sobre interés
+máximo convencional aplicada a operaciones con
+tarjetas de crédito; trabajo que junto con ser discutido con académicos
+y otros partícipes del curso, será eventualmente parte de un repositorio
+de trabajos en línea del \emph{Coase Sandor Institute for Law and
+Economics}.
+
+\subsection{3. Adjuntos}\label{adjuntos}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{Brouchure} del programa.
+\item
+  Reseña de los relatores.
+\item
+  Carta de aceptación.
+\end{enumerate}
+
+\end{document}

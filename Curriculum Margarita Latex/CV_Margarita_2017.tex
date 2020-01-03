@@ -1,0 +1,141 @@
+
+\documentclass[11pt,a4paper,spanish,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{orange}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc} 
+
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\setromanfont[
+BoldFont=Calluna-Bold.otf,
+ItalicFont=Calluna-It.otf,
+BoldItalicFont=Calluna-BoldIt.otf,
+]{Calluna-Regular.otf}
+\setsansfont[
+BoldFont=CallunaSans-Bold.otf,
+ItalicFont=CallunaSans-Italic.otf,
+BoldItalicFont=CallunaSans-BoldItalic.otf
+]{CallunaSans-Regular.otf}
+\usepackage{natbib}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+%\usepackage{libertine}
+
+\newcommand{\noun}[1]{\textsc{#1}}
+% personal data
+\name{\textsc{Margarita}}{\textsc{López}}
+% optional, remove the line if not wanted
+\title{Curriculum Vitae}
+
+% optional
+% \address{street and number}{postcode city}
+% '\\' adds a line break
+\address{Magdalena Vicuña 1280 Depto 702}{San Miguel - RM}
+
+\mobile{+56968998913}
+% optional
+% optional
+\email{margaritalopezrojas@gmail.com}                         % 
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{\noun{Educación}}
+
+\cventry{2005–2009}{Licenciatura en Ciencias Jurídicas y Sociales}{Universidad de Chile}{}{}{}
+
+\cventry{2016}{Diplomado en Sistema Procesal Penal}{Pontificia Universidad Católica de Chile}{}{}{}
+
+\section{\noun{Información Académica}}
+
+\cvlistitem{Título de Abogado otorgado por la Excelentísima Corte Suprema (2013).}
+
+\cvlistitem{Licenciatura aprobada con distinción máxima (nota 6,4).}
+
+\cvlistitem{Examen de grado aprobado con distinción máxima (nota 7,0).}
+
+\cvlistitem{Memoria de Grado: ``\emph{Agente encubierto: análisis crítico de
+su regulación en la legislación nacional}'' (nota 6,3).}
+
+\cvlistitem{Práctica Profesional: Defensoría Penal Pública, Unidad de Estudios,
+aprobada con nota sobresaliente (nota 6,8).}
+
+\section{\noun{Perfeccionamientos y Habilitaciones}}
+
+\cvlistitem{Aprobación Examen de Evaluación Técnica de Defensa Penal General
+de la Defensoría Penal Pública (2016) Aprobación con puntaje 83\%.}
+
+\cvlistitem{Aprobación Examen de Evaluación Técnica de Defensa Penal Penitenciaria
+de la Defensoría Penal Pública (2017) Aprobación con puntaje 87\%.}
+
+\section{\noun{Experiencia Laboral}}
+
+\cventry{2009–2012}{Universidad de Chile - Dirección Jurídica}{}{}{}{ Me desempeñé en la función de procuradora judicial del Departamento
+Judicial, dependiente de la Dirección Jurídica de la Universidad de
+Chile. Particularmente asistí a dicho departamento en la tramitación
+de asuntos contenciosos en materia civil, laboral, penal e infraccional.\\
+}
+
+\cventry{2009}{Fiscalía Centro Norte - Unidad de Delitos Masivos}{}{}{}{Participé en el programa de pasantía en la unidad de delitos
+masivos de la Fiscalía Centro Norte. Mi labor se centró en la confección
+de minutas de procedimientos monitorios y simplificados.}
+
+\cventry{2013– Marzo 2017}{Cielo Wind SpA}{}{}{}{ Me desempeño como fiscal interno de una empresa desarrolladora
+de proyectos de energías renovables (ERNC).}
+
+\cventry{2013– a la fecha}{Litigación Privada en Sede Penal}{}{}{}{He ejercido como defensora penal privada, tanto de forma individual como asimismo
+asociada con otros profesionales en diversos casos relacionados con delitos
+contra la vida, propiedad, seguridad interior del Estado, como también delitos
+incorporados en leyes especiales.}
+
+
+
+\section{\noun{Experiencia Académica}}
+
+\cvlistitem{Examinadora para rendición de exámenes de grado en la Facultad de
+Derecho de la Universidad de Chile.}
+
+\cvlistitem{Integrante de organización ``Pikete Jurídico'' abocada a la defensa
+y difusión de los derechos humanos de las personas privadas de libertad. }
+
+\section{\noun{Referencias y Recomendaciones}}
+\cvlistitem{Rodrigo Lillo Vera\  \  \  \faPhone\ \ +56 9 51970455\ \ \ 
+\faEnvelopeO \ \ rlillo@dpp.cl}
+
+
+\cvlistitem{Nelson Miranda Urrutia\faPhone\ \ +56 9 92027208\ \ \  \faEnvelopeO
+\ \ nelsonmu@gmail.com}
+
+\cvlistitem{Pablo Bunster Claudet\  \  \  \faPhone\ \ +56 9 57585604\ \ \ 
+\faEnvelopeO \ \ pbunster@cielowind.cl}
+
+
+\section{\noun{Conocimientos Técnicos}}
+
+\cvlistitem{Manejo de Idioma Inglés en nivel intermedio.}
+
+\cvlistitem{Manejo a nivel usuario-intermedio de herramientas ofimáticas (Microsoft
+Office // OpenOffice) y aplicaciones de Internet bajo sistemas operativos
+Windows, Linux, Mac.}
+\end{document}

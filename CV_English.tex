@@ -1,0 +1,190 @@
+% !TEX program = xelatex
+\documentclass[11pt,letter,sans,margin=2in]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}  
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\setromanfont[
+BoldFont=Calluna-Bold.otf,
+ItalicFont=Calluna-It.otf,
+BoldItalicFont=Calluna-BoldIt.otf,
+]{Calluna-Regular.otf}
+\setsansfont[
+BoldFont=CallunaSans-Bold.otf,
+ItalicFont=CallunaSans-Italic.otf,
+BoldItalicFont=CallunaSans-BoldItalic.otf
+]{CallunaSans-Regular.otf}
+\usepackage{natbib}
+% adjust the page margins
+\usepackage[scale=0.8, top=2cm, bottom=1cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+%\usepackage{libertine}
+\newcommand{\noun}[1]{\textsc{#1}}
+% personal data
+\name{\textsc{Víctor}}{\textsc{Andrade}}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Hernando de Magallanes 1042, Apt. 2004}{Las Condes - Santiago}{Chile}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+56~982400995}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\phone[fixed]{+56~229798555}
+\email{contacto@victorandrade.cl}                               % optional, remove / comment the line if not wanted
+\homepage{www.victorandrade.cl}                         % 
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\vspace*{-2\baselineskip}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace{-1.5\baselineskip}
+\section{\noun{Education}}
+
+
+\cventry{2005 - 2009}{LL.B / J.D. Law and Social Sciences}{Universidad de Chile}{}{Chile}{}
+
+
+\cvlistitem{Final GPA 6.0 on a 7.0 scale (with highest distinction), ranked 39 of 287 (top 15\% of the class)}
+
+
+\cvlistitem{Bar admission - Chile (2015)}
+
+\cventry{Thesis}{Derecho del Consumo. ´Un breve relato sobre sus fundamentos teóricos,
+desarrollos y nuevas tendencias´(\emph{Consumer law: ``A brief account
+of its theoretical foundations, developments and new trends''}) }{}{grade 6.5 on 7.0 scale}{}{}
+
+\section{\noun{Postgraduate Courses}}
+
+
+\cventry{Summer 2016}{University of Chicago Law School}{}{}{}{Coase Sandor Institute for Law and Economics \emph{Summer Institute in Law and Economics}}
+\cventry{2018}{Pontificia Universidad Católica de Chile}{}{}{}{Faculty of Maths \emph{Graduate Diploma on Data Science}}
+
+
+\section{\noun{Awards}}
+
+
+\cventry{2013}{1st Place in Student Paper Contest at III Civil Law Student Congress}{}{Universidad de Chile School of Law}{Chile}{}
+
+
+\section{\noun{Research}}
+
+
+\cventry{2009-2010}{Observatorio Fucatel (NGO)}{}{}{}{ Researcher in project on the legal framework of Digital Terrestrial
+Television for the Ministry General Secretariat of Government\emph{.}}
+
+
+\cventry{Fall 2010 - Summer 2011}{Department of Industrial Engineering - Universidad de Chile}{}{}{}{ Researcher in project entitled\emph{ ``Web mining and privacy
+concerns''.}}
+
+
+\cventry{Fall 2014}{Center on Regulation and Competition - Universidad de Chile (RegCom)}{}{}{}{ Researcher in comparative analysis of consumer protection policies
+for the Ministry of Economy.}
+
+
+\section{\noun{Teaching}}
+
+
+\cventry{Spring 2010}{Undersecretary of Telecommunications (SubTel)}{}{}{}{ Teaching Assistant in Training Program entitled “\emph{Economic
+Regulation applied to Telecommunication Industry}''.}
+
+
+\cventry{Fall 2010 - Summer 2011}{School of Law - Universidad de Chile}{}{}{}{ Teaching Assistant, Economic Law (J.D. Program), professors
+Joaquín Morales and Boris Santander C.}
+
+
+\cventry{Fall 2014 | Fall 2015}{School of Law - Universidad Adolfo Ibañez}{}{}{}{ Teaching Assistant, Consumer Law (Master Degree Program), professor
+Nicolás Rojas C.}
+
+
+\section{\noun{Work Experience}}
+
+
+\cventry{2010 - 2013 | 2014 - 2015}{Sateler Depolo Diemoz Abogados (LLC Law Firm)}{}{}{}{ Associate Attorney. My work was especially focused on providing
+legal advice to retailers, credit card issuers and fintechs companies
+on issues related to consumer protection, financial regulation and
+data privacy.}
+
+
+\cventry{October 2015 - March 2017 \emph{present}}{Superintendency of Banks and Financial Institutions (SBIF)}{}{}{}{ Attorney at Legal Department. As part of my job, I have been assigned to a subordinate unit dedicated to the regulation of issuers and operators of payment cards,credit unions, and other non-bank financial institutions (NBFIs).
+Additionally, given my experience in matters of financial consumer
+protection, I have assumed various tasks of regulatory coordination
+with the Chilean consumer protection agency (Sernac). Finally, I was
+also part of two special task forces: (i) Multidisciplinary Payment Systems Working Party devoted to analyzing the modernization of payment systems in Chile, and (ii) Inter-ministerial Cibersecurity Group}
+
+\cventry{March 2017 \emph{present}}{FerradaNehme Law Firm}{}{}{}{ Associate Lawyer. Member of TMT team of the firm (recently ranked in Band 1 in Chambers Partners Law Firm Ranking ed. 2019). My practice is focused on issues regarding data privacy, cybersecurity, e-commerce platforms, consumer law, IT contracts and financial technology (FinTech)}
+
+
+
+\section{\noun{Affiliations}}
+
+
+\cvlistitem{IACL (\emph{International Association of Consumer Law})}
+\cvlistitem{IAPP (\emph{International Association of Privacy Professionals})}
+
+\section{\noun{Skills}}
+
+
+\cvitemwithcomment{Languages}{Spanish (native), English (full professional profiency)}{}
+\cvitemwithcomment{Computer Skills}{Ms. Office Apps (advanced), LateX (intermediate), R statiscal language (intermediate)}{}
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): 
+\renewcommand{\refname}{\textsc{Publications}}
+\nocite{*}
+\bibliographystyle{uchile1url3}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+\section{\noun{Media}}
+
+\cventry{Congressional Hearing}{Senate of the Republic of Chile}{}{}{}{I was invited as academic expert in data privacy on a hearing before \emph{Constitution, Justice and Legislation Committee of Chilean Senate} regarding Bill No. 11144-03 on New Data Protection Act (May 2017) \\ \url{http://www.senado.cl/appsenado/index.php?mo=comisiones&ac=sesiones_celebradas&idcomision=186&tipo=3&legi=485&ano=2017&desde=0&hasta=0&idsesion=11674&idpunto=14870&listado=2} }
+
+\cventry{Press}{DiarioFinanciero.cl}{}{}{}{\emph{"Blockchain y la prevención del lavado de activos"}. Column on April 11, 2018. \\ \url{http://goo.gl/cGXXJn}}
+
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+% \clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%\date{January 01, 1984}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%
+%To whom may concern
+%
+%
+%\makeletterclosing
+%
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

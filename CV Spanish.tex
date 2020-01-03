@@ -1,0 +1,123 @@
+
+\documentclass[11pt,a4paper,sans,spanish]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}  
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\setromanfont[
+BoldFont=Calluna-Bold.otf,
+ItalicFont=Calluna-It.otf,
+BoldItalicFont=Calluna-BoldIt.otf,
+]{Calluna-Regular.otf}
+\setsansfont[
+BoldFont=CallunaSans-Bold.otf,
+ItalicFont=CallunaSans-Italic.otf,
+BoldItalicFont=CallunaSans-BoldItalic.otf
+]{CallunaSans-Regular.otf}
+\usepackage{natbib}
+\usepackage[scale=0.75]{geometry}
+\newcommand{\noun}[1]{\textsc{#1}}
+% personal data
+\name{\textsc{Víctor}}{\textsc{Andrade}}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{}{Santiago}{Chile}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+56~982400995}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+56~229798555}
+\email{contacto@victorandrade.cl}                               % optional, remove / comment the line if not wanted
+% \homepage{www.victorandrade.cl}                         % 
+
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{\noun{Áreas de Interés}}
+
+Regulación financiera, Derecho del consumo, contratos de tecnología, protección de datos personales,
+riesgos cibernéticos, medios de pago e innovación financiera (FinTech), economía del comportamiento aplicada al análisis económico del derecho (\emph{behavioral law and economics}).
+
+
+\section{\noun{Información Académica}}
+
+
+\cvlistitem{Título de Abogado otorgado por la Excelentísima Corte Suprema (2015).}
+
+
+\cvlistitem{Licenciatura en Ciencias Jurídicas y Sociales - Universidad de Chile - aprobada con distinción
+máxima (2015).}
+
+
+\cvlistitem{Memoria de Grado: ``Derecho del Consumo. \emph{´Un breve relato sobre sus fundamentos teóricos, desarrollos y nuevas tendencias}´''.
+Aprobada con nota 6,5. Profesora Guía: Nicole Nehme Zalaquett. Disponible
+en internet en \href{http://www.derechodelconsumo.cl/tesis}{www.derechodelconsumo.cl/tesis}.}
+
+
+\section{\noun{Cursos de Postgrado}}
+
+
+\cventry{Verano 2016}{University of Chicago Law School}{}{}{}{Coase Sandor Institute for Law and Economics - \emph{Summer Institute in Law and Economics}}
+\cventry{2018}{Pontificia Universidad Católica de Chile}{}{}{}{Facultad de Matemática - Diplomado en DataScience}
+
+
+\section{\noun{Premios}}
+
+
+\cventry{2013}{Primer Lugar en concurso de ponencias III Congreso de Derecho Civil}{}{Escuela de Derecho - Universidad de Chile}{Chile}{}
+
+\section{\noun{Experiencia Laboral}}
+
+
+\cventry{2010 - 2013 | 2014 - 2015}{Sateler Depolo Diemoz Abogados (actual \emph{Kennedys Law Chile})}{}{}{}{ Abogado Asociado. Mi trabajo estuvo especialmente enfocado en proveer servicios legales a \emph{retailers}, emisores de tarjetas de crédito no bancarias, compañías de seguros y empresas de tecnología financiera en asuntos relativos a protección al consumidor, regulación financiera y protección de datos personales.}
+
+\cventry{Octubre 2015 - Abril 2017}{Superintendencia de Bancos e Instituciones Financieras (SBIF)}{}{}{}{Abogado en Dirección Jurídica - Unidad de Cooperativas y Entidades No Bancarias. Como parte de mi trabajo fuí designado a la unidad dedicada a la regulación de emisores y operadores de tarjetas de pago (débito, crédito y prepago) cooperativas de ahorro y crédito, SAG relacionadas a sistemas de pago, y otras instituciones financieras no bancarias (NBFIs). Asimismo, tuve una participación activa en la revisión de las normativas de externalización de servicios, incidentes operacionales y continuidad de negocios (RAN 20-7, 20-8 y 20-9) y en el Grupo de Trabajo Interdisciplinario de Medios de Pago, y la Mesa Interministerial de Ciberseguridad}
+
+\cventry{Abril 2017 - \emph{Presente}}{FerradaNehme Abogados}{}{}{}{Abogado Asociado adscrito a los grupos de Regulación Económica, Derecho del Consumo, y Tecnología, Medios y Telecomunicaciones (TMT).}
+
+\section{\noun{Investigación}}
+
+
+\cventry{2009 - 2010}{Observatorio Fucatel}{}{}{}{ Co-investigador en proyecto de análisis del marco jurídico para la introducción de la TDT para el Ministerio Secretaria General
+de Gobierno (SEGEGOB). Título de informe final: \emph{Gestión de espectro radioeléctrico, mercado secundario y liberalización asignativa.}}
+
+
+\cventry{Otoño 2010 - Verano 2012}{Departamento de Ingeniería Industrial - Universidad de Chile}{}{}{}{ Investigador en el proyecto titulado \emph{ ``Web mining and privacy concerns''.}}
+
+
+\cventry{Primavera 2014}{Centro Regulación y Competencia Universidad de Chile (RegCom)}{}{}{}{ Investigador externo en análisis comparado de normativa de protección al consumidor.}
+
+
+\section{\noun{Docencia}}
+
+
+\cventry{Septiembre 2010}{Subsecretaria de Telecomunicaciones}{}{}{}{ Ayudante en curso de capacitación “Regulación Económica aplicada al Mercado de las Telecomunicaciones''.}
+
+
+\cventry{2010 - 2011}{Facultad de Derecho Universidad de Chile}{}{}{}{ Ayudante de cátedra de Derecho Económico, profesores Joaquín Morales G. y Boris Santander C.}
+
+
+\cventry{Otoño 2014 | Otoño 2015}{Facultad de Derecho Universidad Adolfo Ibañez}{}{}{}{ Ayudante en curso ``Derecho del Consumo'' del programa de Magíster en Derecho Privado.}
+
+
+\renewcommand{\refname}{\textsc{Publicaciones y Conferencias}}
+\nocite{*}
+\bibliographystyle{uchile1url3}
+\bibliography{publications}                        
+
+\section{\noun{Afiliaciones}}
+
+\cvlistitem{IACL (\emph{International Association of Consumer Law})}
+\cvlistitem{IAPP (\emph{International Association of Privacy Professionals})}
+
+\section{\noun{Habilidades Técnicas}}
+
+\cvitemwithcomment{Idiomas}{Español (nativo), Inglés (avanzado)}{}
+\cvitemwithcomment{Conocimientos Informáticos}{Ms. Office Apps (avanzado), \LaTeX (intermedio), R (intermedio)}{}
+\end{document}
