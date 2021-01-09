@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CV Spanish.aux
+The style file: uchile1url3.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: publications.bib
+Warning--there's a number but no volume in andradeProteccionConsumidorTarjetas2015
+You've used 5 entries,
+            4040 wiz_defined-function locations,
+            818 strings with 7889 characters,
+and the built_in function-call counts, 3211 in all, are:
+= -- 289
+> -- 50
+< -- 6
++ -- 24
+- -- 15
+* -- 169
+:= -- 429
+add.period$ -- 11
+call.type$ -- 5
+change.case$ -- 35
+chr.to.int$ -- 5
+cite$ -- 11
+duplicate$ -- 266
+empty$ -- 307
+format.name$ -- 25
+if$ -- 727
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 47
+newline$ -- 32
+num.names$ -- 20
+pop$ -- 126
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 213
+stack$ -- 0
+substring$ -- 89
+swap$ -- 142
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 47
+warning$ -- 1
+while$ -- 18
+width$ -- 0
+write$ -- 73
+(There was 1 warning)
